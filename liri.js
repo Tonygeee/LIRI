@@ -30,7 +30,7 @@ switch(command){
     if(x){
       spotifySong(x);
     } else{
-      spotifySong("Fluorescent Adolescent");
+      spotifySong("YOLO");
     }
   break;
 
@@ -38,7 +38,7 @@ switch(command){
     if(x){
       omdbData(x)
     } else{
-      omdbData("Mr. Nobody")
+      omdbData("Seven Pounds")
     }
   break;
 
@@ -130,15 +130,13 @@ function omdbData(movie){
     } else{
       console.log('Error occurred.')
     }
-    if(movie === "Mr. Nobody"){
+    if(movie === "Seven Pounds"){
       console.log("-----------------------");
-      console.log("If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/");
-      console.log("It's on Netflix!");
+      console.log("If you haven't watched 'Seven Pounds, youre lame");
 
       //adds text to log.txt
       fs.appendFile('log.txt', "-----------------------");
-      fs.appendFile('log.txt', "If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/");
-      fs.appendFile('log.txt', "It's on Netflix!");
+      fs.appendFile('log.txt', "If you haven't watched 'Seven Pounds, youre lame!");
     }
   });
 
